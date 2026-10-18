@@ -7,7 +7,7 @@ from datetime import datetime, timezone
 from fastapi import FastAPI, Request, Response
 from prometheus_client import Counter, generate_latest, CONTENT_TYPE_LATEST
 
-EMAIL = "your_email@example.com"   # <-- CHANGE THIS to your real email
+EMAIL = "24f3005093@ds.study.iitm.ac.in"   # <-- CHANGE THIS to your real email
 START_TIME = time.time()
 
 app = FastAPI()
